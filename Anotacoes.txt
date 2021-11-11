@@ -1,0 +1,17 @@
+JavaScript
+
+Client - PC, Smartphone
+
+Server - Servidores
+
+O acesso é feito por navegadores.
+
+JavaScript é uma tecnologia Client side, também é usado em servidores, porém muito mais usado em Client.
+
+HTML, CSS e JS compõe a grande maioria de soluções na internet, onde temos:
+HTML: Conteúdo
+CSS: Estilo
+JS: Interação
+
+Com o botão direito do mouse ir até 'Inspecionar' ou apertar a tecla F12, abre o DevTools do Google Chrome.
+
