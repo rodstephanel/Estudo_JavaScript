@@ -15,3 +15,36 @@ JS: Interação
 
 Com o botão direito do mouse ir até 'Inspecionar' ou apertar a tecla F12, abre o DevTools do Google Chrome.
 
+Tag de estilo <style></style> fica no head do HTML
+Tag para javaScript <script></script> fica no final do body
+
+O símbolo (=) tem a função de atribuição, ou seja, ele atribui algo a uma variável
+No javaScript existe três tipos de string e elas são feitas com os símbolos "", '' ou ``
+
+As variáveis (identificadores) devem seguir as regras:
+* Podem começar com letra, $ ou _
+* Não pode começar com número
+* É possível usar letras ou números
+* É possível usar acentos e símbolos
+* Não podem conter espaços
+* Não podem ser palavras reservadas
+
+OBS.:javaScript reconhece diferença pelo camelCase, ou seja, uma variável 'a' é diferente de uma variável 'A'
+
+Para acessar o Node.js no VSCode tem que acessar a aba do Terminal e digitar node
+Para sair do node, basta digitar .exit
+Apertando CRTL + L faz a limpeza dos comandos em tela
+
+Tipos de dados
+* number
+    - Infinity
+    - NaN
+* string
+* boolean
+* null
+* undefined
+* object
+    - Array
+* function
+
+O comando typeof mostra o tipo de dado da variável ou diretamente do dado
