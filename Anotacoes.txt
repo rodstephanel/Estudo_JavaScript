@@ -48,3 +48,34 @@ Tipos de dados
 * function
 
 O comando typeof mostra o tipo de dado da variável ou diretamente do dado
+
+Sinal de + (mais/plus) pode ser usado para soma ou para concatenação
+Ex.: number + number (soma)
+ex.: string + string (concatena)
+
+Conversão de tipo e formatação
+Para converter uma string para numero pode-se utilizar:
+Number(string) -> A linguagem decide qual é o tipo conforme o dado inserido
+Number.parseInt(string) -> A conversão acontece de string para numero inteiro
+Number.parseFloat(string) -> A conversão acontece de string para numero real
+numero.toFixed(2) -> Transforma o numero para duas casas decimais
+numero.toFixed(2).replace('.',',') -> Troca ponto por virgula
+numero.toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'}) -> Converte para Real (R$)
+
+
+Para converter para string pode-se utilizar:
+String(numero)
+numero.toString()
+string.length -> retorna quantos caracteres a string tem
+string.toUpperCase() -> muda tupo para Maiuscula
+string.toLowerCase() -> muda tupo para Minuscula
+
+Template string
+Pode-se utilizar ${}(place holder), assim temos:
+var nome = 'Rodrigo'
+var espaco = 200
+var tempo = 5
+
+`O atleta ${nome} percorreu ${espaco} em ${tempo} minutos`
+
+O print da mensagem em template string tem que estar entre crase (`)

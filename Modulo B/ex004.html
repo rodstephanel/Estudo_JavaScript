@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 02</title>
+    <style>
+        body {
+            background-color: rgb(13, 68, 13);
+            color: grey;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript</h1>
+    <p>Estudo de Template String</p>
+    <script>
+        var tst_nome = window.prompt('Insira um nome: ')
+        var tst_sobrenome = window.prompt('Insira mais um sobrenome: ')
+        document.write(`Seu nome ${tst_nome.toUpperCase()} tem ${tst_nome.length} letras e seu sobrenome <strong>${tst_sobrenome.toLowerCase()}</strong> tem ${tst_sobrenome.length} letras`)
+    </script>
+</body>
+</html>
