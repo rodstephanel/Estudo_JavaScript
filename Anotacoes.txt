@@ -79,3 +79,20 @@ var tempo = 5
 `O atleta ${nome} percorreu ${espaco} em ${tempo} minutos`
 
 O print da mensagem em template string tem que estar entre crase (`)
+
+OPERADORES
+* Aritméticos 
+    +  -> adição        Ex.: 5 + 2 = 7
+    -  -> subtração     Ex.: 5 - 2 = 3
+    *  -> multiplicação Ex.: 5 * 2 = 10
+    /  -> divisão       Ex.: 5 / 2 = 2.5
+    %  -> divisão real  Ex.: 5 / 2 = 1 (MOD)
+    ** -> potencia      Ex.: 5 ** 2 = 25
+
+*Atribuição
+
+*Relaciionais
+
+*Lógicos
+
+*Ternário
