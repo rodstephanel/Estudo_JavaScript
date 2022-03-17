@@ -80,7 +80,10 @@ var tempo = 5
 
 O print da mensagem em template string tem que estar entre crase (`)
 
+---------------------------------------------------------------------------
+
 OPERADORES
+
 * Aritméticos 
     +  -> adição        Ex.: 5 + 2 = 7
     -  -> subtração     Ex.: 5 - 2 = 3
